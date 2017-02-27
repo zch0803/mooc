@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <stdio.h>
 using namespace std;
 
 int main()
@@ -13,7 +13,7 @@ int main()
 
     for(int i=0;i<=10;i++)
     {
-        for(int j=i;j<=a[i];j++)
+        for(int j=0;j<a[i];j++)
             cout << i <<" ";
     }
     getchar();
