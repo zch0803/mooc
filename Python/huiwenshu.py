@@ -1,3 +1,4 @@
+#求100000以内的回文数
 def ishuiwenshu(arg):
     length = len(arg)
     if length==1:

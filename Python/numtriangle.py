@@ -1,3 +1,5 @@
+#coding: utf-8
+#求10以内的数字三角形
 num = int(raw_input("please input a num 1-10: "))
 
 a = []
